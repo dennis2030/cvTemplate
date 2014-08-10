@@ -1,0 +1,133 @@
+html,
+body {
+  background: url("../img/grain.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  font-family: "微軟正黑體", "Microsoft JhengHei", "LiHei Pro Medium", AppleGothic, "新細明體", "PMingLiU", Dotum, Lucida Grande, Verdana Sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+a {
+  color: #0095DD;
+}
+a:hover,
+a:visited {
+  color: #00539F;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ol li,
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 .5em 0;
+}
+ol a,
+ul a {
+  text-decoration: none;
+}
+section {
+  margin: 2% 0 2% 0;
+}
+section h1 {
+  margin: 10px 0;
+  text-rendering: optimizelegibility;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+blockquote {
+  border-left: 5px solid #C13832 ;
+  margin: 0 0 20px;
+  padding: 0 0 0 15px;
+}
+blockquote p {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 18px;
+}
+.container {
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 960px;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+  line-height: 0;
+  clear: both;
+}
+.sub-description {
+  margin: 0 0 .5em 1em;
+  color: #444;
+}
+.thinking {
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup {
+  margin: .5em 0 .3em 0;
+}
+ul#navigator {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 50px;
+  height: 100%;
+  background: #363636;
+  text-align: left;
+  transition: width .3s;
+  float: left;
+}
+ul#navigator.expand {
+  width: 200px;
+}
+ul#navigator li {
+  max-height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+ul#navigator li div.icons {
+  display: inline-block;
+  float: left;
+  max-height: 50px;
+  max-width: 50px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+ul#navigator li div.title {
+  position: relative;
+  top: 12px;
+  color: #FFFFFF;
+}
+ul#navigator a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+ul#navigator a:before,
+ul#navigator a:after {
+  content: "";
+  display: table;
+  line-height: 0;
+  clear: both;
+}
+ul#navigator a:hover {
+  background: gray;
+}
+ul#navigator i {
+  color: #FFFFFF;
+  margin: 12px 12px 0 12px;
+  font-size: 25px !important;
+}
