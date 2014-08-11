@@ -50,12 +50,16 @@ blockquote {
     margin-right: auto;
     position: relative;
     width: @containerWidth;
+    transition: width .3s;
     &:before, &:after{
     	content: "";
     	display: table;
     	line-height: 0;
     	clear: both;
     } 
+    &.expand{
+        width: @containerWidth - 150px;
+    }
 }
 .sub-description{
     margin: 0 0 .5em 1em;
@@ -118,4 +122,15 @@ ul#navigator{
         margin: 12px 12px 0 12px;
         font-size: 25px !important;
     }
+}
+
+.interest-img{
+    display: inline-block;
+    margin: 30px;
+    width: 210px;
+    height: 310px;
+}
+
+.head-img{
+    float: right;
 }

@@ -2,6 +2,7 @@
 $(document).ready(function(){
 	$("#canvas-button").click(function() {
 		$("#navigator").toggleClass('expand');
+		$('.container').toggleClass('expand');
 		return false;
 	});
 	$('ul#navigator li a').click(function() {
